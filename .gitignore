@@ -1,0 +1,87 @@
+# =========================
+# ROS 2 / Colcon build
+# =========================
+build/
+install/
+log/
+
+# Colcon metadata
+.colcon/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+
+# =========================
+# C++ build artifacts
+# =========================
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# =========================
+# ROS message/service generated files
+# =========================
+*.msg.cpp
+*.srv.cpp
+*.action.cpp
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs and runtime files
+# =========================
+*.log
+
+# =========================
+# Testing / coverage
+# =========================
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# =========================
+# ROS2 launch artifacts (optional)
+# =========================
+*.launch.pyc
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.orig
