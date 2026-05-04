@@ -85,3 +85,4 @@ Makefile
 *.bak
 *.tmp
 *.orig
+cspell.config.yaml

@@ -19,7 +19,8 @@
         <!-- <arg name="gz_args" value="empty.sdf -r" /> -->
     </include>
 
-    <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
+    <node pkg="ros_gz_sim" exec="create"
+      args="-topic robot_description -name my_robot" />
 
     <node pkg="rviz2" exec="rviz2" output="screen" 
         args="-d $(var rviz_config_path)"/>
